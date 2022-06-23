@@ -1,0 +1,28 @@
+scriptName MoonlightKeyDetect extends ActiveMagicEffect
+
+spell property SpellRelease auto
+Actor PlayerRef
+
+event OnEffectStart(actor akTarget, actor akCaster)
+
+    self.RegisterForControl("sprint")
+    PlayerRef = akTarget
+endevent
+
+
+event OnControlDown(String Control)
+
+    if Control == "Left Attack/Block"
+        SpellRelease.Cast(PlayerRef)
+    endIf
+    if Control == "Right Attack/Block"
+        SpellRelease.Cast(PlayerRef)
+    endIf
+endevent
+
+event OnControlUp(String Control, Float HoldTime)
+
+    if Control == "sprint"
+        PlayerRef.dispelSpell(SpellRelease)
+    endIf
+endevent

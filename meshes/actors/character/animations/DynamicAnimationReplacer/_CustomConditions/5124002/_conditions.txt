@@ -1,0 +1,2 @@
+HasMagicEffect("Moonveil.esp"|0x000809) AND
+HasMagicEffect("Moonveil.esp"|0x000803)
