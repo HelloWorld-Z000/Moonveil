@@ -5,6 +5,7 @@ Req: DAR
 
 I opted for block key + movement input and upon block key release. it will do either horizontal or vertical depending on movement input
 
+additem the amulet, via help Moonveil command
 
 equip the amulet and any 1h sword
 
