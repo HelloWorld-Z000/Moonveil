@@ -23,6 +23,7 @@ forward and backward movement = vertical slash
 
 -true charging mechanics(light attack and power attack charging) in order to be super good needs actor behavior edit. It needs a whole new combat framework from scratch. ABR is a popular one for directional charging mechanic. 
 
--I opted for something that I can do with script:flushed: . scripting is not my forte:flushed: . that's why most of my mods are papyrus script free with the help of SKSE mods like MCO and Payload Interpreter. 
+-I opted for something that I can do with script😳 . scripting is not my forte😳 
+
 
 -i opted for block key for fake charging
