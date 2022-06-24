@@ -1,1 +1,0 @@
-HasMagicEffect("Moonveil.esp"|0x000809) AND
