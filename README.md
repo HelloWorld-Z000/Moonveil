@@ -4,7 +4,7 @@
 Equip Moonveil Katana
 
 
-Hold V to enter charging stance
+Hold V to enter charging stance, release to exit
 
 while pressing V
 
